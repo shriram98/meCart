@@ -11,7 +11,7 @@ class Main_Page extends Component{
           
                     <div className="body">
                     <button onClick className="Buybutton">Buy</button>
-                    <button onClick className="SellButton">Sell</button>
+                    <button onClick className="Sellbutton">Sell</button>
                     </div>   
            
          
