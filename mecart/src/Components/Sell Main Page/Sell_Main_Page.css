@@ -3,16 +3,62 @@
     height: 100vh;
     background-color: aquamarine;
     /* text-align: center; */
+
+
+
+    /* background-image: url(background.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,.7)), url(background.jpg);
+    
 }
+
+
 .btn{
-    margin-top: 225px;
+    margin-top: 20px;
     height: 60px;
     border-radius:10%;
+    border:none;
 }
 .buttons{
     text-align: center;
+    margin-bottom: 3%;
+    border: none;
+   
+    
 }
 .btn-primary{
-    width: 150px;
+    width: 50%;
+    height:60vh;
+    background-color: darkgray;
     margin-right: 5px; 
+    background-image: url(button1.jpg) ;
+    border:none;
+    background-size: cover;
+    font-size: 50px;
+}  
+.btn-secondary{
+    width: 40%;
+    height: 45vh;
+    margin-left: 5%;
+    background-image: url(button2.jpg) ;
+    border:none;
+    background-size: cover;
+    font-size: 40px;
+    color:brown;
+}
+
+
+
+.bg-light{
+    background-color: rgb(15, 236, 126);
+}
+.nav-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    
 }
