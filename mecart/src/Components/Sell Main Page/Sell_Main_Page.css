@@ -1,12 +1,6 @@
 .body{
     position: relative;
     height: 100vh;
-    background-color: aquamarine;
-    /* text-align: center; */
-
-
-
-    /* background-image: url(background.jpg); */
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,35 +13,40 @@
 .btn{
     margin-top: 20px;
     height: 60px;
-    border-radius:10%;
+    border-radius:6%;
     border:none;
 }
 .buttons{
     text-align: center;
     margin-bottom: 3%;
     border: none;
+    font: bold 12px/30px Georgia, serif;
+
    
     
 }
-.btn-primary{
-    width: 50%;
-    height:60vh;
+.btn-pri{
+    width: 40%;
+    height:55vh;
     background-color: darkgray;
     margin-right: 5px; 
     background-image: url(button1.jpg) ;
     border:none;
     background-size: cover;
-    font-size: 50px;
+    font-size: 55px;
+    color:black;    
+    padding-bottom: 5%;
 }  
-.btn-secondary{
+.btn-sec {
     width: 40%;
-    height: 45vh;
+    height: 55vh;
     margin-left: 5%;
     background-image: url(button2.jpg) ;
     border:none;
     background-size: cover;
-    font-size: 40px;
-    color:brown;
+    font-size: 55px;
+    padding-bottom: 8%;
+  
 }
 
 
@@ -61,4 +60,11 @@
     margin-right: auto;
     margin-top:2%;
     
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
