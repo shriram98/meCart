@@ -21,9 +21,15 @@
     margin-bottom: 3%;
     border: none;
     font: bold 12px/30px Georgia, serif;
+    filter:alpha(opacity=40);
+}
+.buttons:hover{
+    opacity: 1.0;
+        filter: alph(opacity=100);
+}
+.btn-primary:hover{
+    background-color: darkgray;
 
-   
-    
 }
 .btn-pri{
     width: 40%;
@@ -36,6 +42,7 @@
     font-size: 55px;
     color:black;    
     padding-bottom: 5%;
+    /* background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,.7)), url(button1.jpg); */
 }  
 .btn-sec {
     width: 40%;

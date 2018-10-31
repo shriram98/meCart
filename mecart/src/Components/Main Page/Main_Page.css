@@ -51,8 +51,8 @@ p {
     background-color: red; /* Green */
     color: white;
 }
-body {
-    background: url("college.jpeg") no-repeat center fixed;
+.body {
+    background-image: url("college.jpeg") ;
     background-size: cover;
 }
 bgimg {

@@ -6,7 +6,7 @@ class App extends Component{
     render(){
         return(
             <div>
-                {/* this is the format to call your page  */}
+          
             {/* <Main_Page />  */}
             
             <Sell_Main_Page /> 
